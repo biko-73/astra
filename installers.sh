@@ -11,19 +11,6 @@ package=/var/volatile/tmp/$plugin-$version.tar.gz
 status='/var/lib/opkg/status'
 install="opkg install --force-reinstall"
 
-#remove unnecessary files and folders
-if [  -d "/CONTROL" ]; then
-rm -r  /CONTROL >/dev/null 2>&1
-fi
-rm -rf /control >/dev/null 2>&1
-rm -rf /postinst >/dev/null 2>&1
-rm -rf /preinst >/dev/null 2>&1
-rm -rf /prerm >/dev/null 2>&1
-rm -rf /postrm >/dev/null 2>&1
-rm -rf /tmp/*.ipk >/dev/null 2>&1
-rm -rf /tmp/*.tar.gz >/dev/null 2>&1
-
-
 #download & install
 echo "> Downloading $plugin-$version package  please wait ..."
 sleep 3s
@@ -64,7 +51,6 @@ wget -O /etc/astra/scripts/abertis https://github.com/biko-73/astra/raw/main/arm
 ;;
 *) echo
 esac
-
 
 echo ''
 if [ $extract -eq 0 ]; then
