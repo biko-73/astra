@@ -69,7 +69,7 @@ esac
 echo ''
 if [ $extract -eq 0 ]; then
 echo "> $plugin-$version package installed successfully"
-echo "> Uploaded By ElieSat"
+echo "> Uploaded By Biko_73"
 sleep 3s
 
 else
