@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# =====================================
+# SCRIPT : DOWNLOAD AND INSTALL astra #
+# =================================================================================================
+# Command: wget https://raw.githubusercontent.com/biko-73/astra/main/installers.sh -O - | /bin/sh #
+# =================================================================================================
+
 #config
 plugin=astra-sm
 version=0.2-r0
