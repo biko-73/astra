@@ -70,4 +70,8 @@ echo "> $plugin-$version package installation failed"
 sleep 3s
 fi
 
+wget -O /etc/enigma2/userbouquet.30w_abertis.tv https://raw.githubusercontent.com/biko-73/astra/main/userbouquet.30w_abertis.tv
+sleep 2
+echo '#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.30w_abertis.tv" ORDER BY bouquet' >> /etc/enigma2/bouquets.tv
+
 exit 0
