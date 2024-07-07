@@ -73,5 +73,10 @@ fi
 wget -O /etc/enigma2/userbouquet.30w_abertis.tv https://raw.githubusercontent.com/biko-73/astra/main/userbouquet.30w_abertis.tv
 sleep 2
 echo '#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.30w_abertis.tv" ORDER BY bouquet' >> /etc/enigma2/bouquets.tv
+echo ''
+echo '**************************************************'
+echo '**      Abertis Bouqet aded to your box         **'
+echo '**************************************************'
+echo ''
 
 exit 0
