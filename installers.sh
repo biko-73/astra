@@ -10,7 +10,7 @@
 plugin=astra-sm
 version=0.2-r0
 url=https://github.com/biko-73/astra/raw/main/astra-sm-0.2.tar.gz
-url1=https://github.com/biko-73/raw/main/astra
+url1=https://github.com/biko-73/astra/raw/main
 
 ipk=astra-sm.ipk
 package=/var/volatile/tmp/$plugin-$version.tar.gz
