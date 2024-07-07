@@ -75,7 +75,7 @@ sleep 2
 echo '#SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.30w_abertis.tv" ORDER BY bouquet' >> /etc/enigma2/bouquets.tv
 echo ''
 echo '**************************************************'
-echo '**      Abertis Bouqet aded to your box         **'
+echo '**      Abertis Bouqet added to your box        **'
 echo '**************************************************'
 echo ''
 
